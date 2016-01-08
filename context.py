@@ -33,7 +33,7 @@ def main():
 
     if mismatch:
         xbmc.sleep(1000)
-        xbmc.executebuiltin('Notification(Corrected InfoLabel mismatch, "Real: %s, InfoLabel: %s", 00:06, DefaultIconInfo.png)' % (truelabel, infolabel))
+        xbmc.executebuiltin('Notification(Corrected InfoLabel mismatch, "Real: %s, InfoLabel: %s", 6000, DefaultIconInfo.png)' % (truelabel, infolabel))
 
 def get_realdbid(listitem):
     return listitem.getfilename().split('?')[0].rstrip('/').split('/')[-1]
