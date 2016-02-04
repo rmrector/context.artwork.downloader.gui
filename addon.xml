@@ -14,13 +14,13 @@
 	<extension point="kodi.addon.metadata">
 		<summary lang="en">Show Artwork Beef GUI for the selected item.</summary>
 		<description lang="en">Show Artwork Beef GUI for the selected item. Added to the 'Manage...' context menu. It also supports Artwork Downloader with a setting.</description>
+		<source>https://github.com/rmrector/context.artwork.downloader.gui</source>
+		<license>The MIT License</license>
 		<disclaimer lang="en" />
 		<platform>all</platform>
 		<language />
-		<website>https://github.com/rmrector/context.artwork.downloader.gui</website>
+		<website />
 		<forum />
 		<email />
-		<license>The MIT License</license>
-		<source>https://github.com/rmrector/context.artwork.downloader.gui</source>
 	</extension>
 </addon>
