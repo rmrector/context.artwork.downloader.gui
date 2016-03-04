@@ -31,10 +31,6 @@ def main():
         return
     xbmc.executebuiltin('RunScript({0}, mode=gui, mediatype={1}, dbid={2})'.format(artworkaddon, mediatype, dbid))
 
-    if mismatch:
-        xbmc.sleep(1000)
-        xbmc.executebuiltin('Notification(Corrected InfoLabel mismatch, "Real: %s, InfoLabel: %s", 6000, DefaultIconInfo.png)' % (truelabel, infolabel))
-
 def get_realdbid(listitem):
     return listitem.getfilename().split('?')[0].rstrip('/').split('/')[-1]
 
